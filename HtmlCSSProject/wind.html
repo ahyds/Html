@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wind Speed</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-default bg-light" style="margin-bottom:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                          
+      </button>
+      <a class="navbar-brand" id="brand1" href="index.html">Latitude</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="temp.html">Max Temperature</a></li>
+            <li><a href="humidity.html">Humidity</a></li>
+            <li><a href="cloud.html">Cloudiness</a></li>
+            <li><a href="wind.html">Wind Speed</a></li>
+            </ul>
+          </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+<div class="container-fluid" id="back1" style="background-color:#ccc; height:2500px;opacity:0.8;width:100%;align-self: center;padding: 50px;">
+
+
+  <div class="container" id="box1" style="width: 95%; height:auto; padding: 30px; margin-left:1%;  margin-right:1%; "> 
+    <div class="row">
+         <div class="col-lg-7 col-sm-12" id="cell1" style="background-color: white; width:900px; margin-top: -30px;padding:55px; margin-right: 50px;">
+            <h1 style="font-family: Georgia; font-weight: bold; color: rgb(0, 177, 177); font-size: 45px;">Wind Speed</h1>
+            <hr/>
+            <br>
+            <img src="img/Fig2.png" alt="City Latitude vs. Humidity" height="500" width="750" class="centre" >
+            <br>
+            <p style="text-align: justify;;">Wind Speed analysis paragrah is here. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>  
+        </div>
+
+        <div class="col-lg-4 col-sm-12" id="cell2" style="background-color: white; margin-top: -30px; padding:55px; margin-right: 10px;">
+            <h1 style="font-family: Georgia; font-weight: bold; color: rgb(0, 177, 177); font-size: 45px;">Visualizations</h1>
+            <hr/>
+            <br>
+            <div class="row">
+              
+              <a href="temp.html"><img src="img/Fig1.png" alt="City Latitude vs. Max Temperature" height="200px" width="220px "></a>
+
+              <a href="humidity.html"><img  src="img/Fig2.png" alt="City Latitude vs. Humidity" height="200px" width="220px"  ></a>
+            </div>
+            <div class="row">
+              <a href="cloud.html"><img src="img/Fig3.png" alt="City Latitude vs. Cloudiness" height="200px" width="220px"></a>
+              <a href="wind.html"><img style=" padding:1px;  border:1px solid rgb(0, 177, 177);" src="img/Fig4.png" alt="City Latitude vs. Wind Speed" height="200px" width="220px"></a>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+
